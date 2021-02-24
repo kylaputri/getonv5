@@ -128,7 +128,6 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ┣⊱ *Role* : ${role}
 ┣⊱ *User register* : ${_registered.length}
 ┣⊱ *Tes Bot On/Off : *${prefix}bot*
-┣⊱ *BOT AKTIF* : ${kyun(uptime)}
 ┣⊱ *Jangan SPAM YA SAYANG!
 ┗━━━⊱  ⸨ *GetonBot* ⸩  ⊰━━━━┛
 
