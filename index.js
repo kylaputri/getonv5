@@ -38,7 +38,7 @@ const { ind } = require('./language')
 /********** MENU SETTING **********/
 const vcard = 'BEGIN:VCARD\n' 
             + 'VERSION:3.0\n' 
-            + 'FN:GetonOwner\n' 
+            + 'FN:HansOwner\n' 
             + 'ORG: Pengembang XBot;\n' 
             + 'TEL;type=CELL;type=VOICE;waid=6283843313959:+62 838-4331-3959\n' 
             + 'END:VCARD' 
