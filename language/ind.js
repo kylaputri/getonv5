@@ -25,7 +25,7 @@ exports.lvlnoon = () => {
 }
 
 exports.noregis = () => {
-	return`*「 BELUM DAFTAR 」*\n\n*cara daftar ${prefix}daftar nama|umur* \n*contoh ${prefix}daftar affis|17*`
+	return`*「 BELUM DAFTAR 」*\n\n*cara daftar ${prefix}daftar nama|umur* \n*contoh ${prefix}daftar GetonBot|17*`
 }
 
 exports.rediregis = () => {
@@ -81,7 +81,7 @@ exports.pc = () => {
 }
 
 exports.registered = (namaUser, umurUser, serialUser, time, sender) => {
-	return`*「 DATA NEGARA 」*\n\nkamu sudah terdaftar dengan data \n\n┏━⊱nama\n┗⊱${namaUser}\n┏━⊱nomer\n┗⊱wa.me/${sender.split("@")[0]}\n┏━⊱umur\n┗⊱${umurUser}\n┏━⊱waktu pendaftaran\n┗⊱${time}\n\n┏━❉ *NS* ❉━\n┣⊱${serialUser}\n┗⊱NOTE : jangan sampai lupa nomer ini karena ini penting:v`
+	return`*「 DATABASE Geton 」*\n\nkamu sudah terdaftar di *DATABASE Geton!* \n\n┏━⊱nama\n┗⊱${namaUser}\n┏━⊱nomer\n┗⊱wa.me/${sender.split("@")[0]}\n┏━⊱umur\n┗⊱${umurUser}\n┏━⊱waktu pendaftaran\n┗⊱${time}\n\n┏━❉ *NS* ❉━\n┣⊱${serialUser}\n┗⊱NOTE : pakai sesuka kamu,asal jngn spam! •||anggap bot seperti teman kamu sendiri:),and jangan spam ya Bngsad!||•`
 }
 
 exports.cmdnf = (prefix, command) => {
@@ -127,7 +127,9 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ┣⊱ *Level* : ${getLevelingLevel(sender)}
 ┣⊱ *Role* : ${role}
 ┣⊱ *User register* : ${_registered.length}
-┗━━━⊱  ⸨ *AFFIS* ⸩  ⊰━━━━┛
+┣⊱ *Tes Bot On/Off : *${prefix}bot*
+┣⊱ *Jangan SPAM YA SAYANG!
+┗━━━⊱  ⸨ *GetonBot* ⸩  ⊰━━━━┛
 
  *${prefix}info*
  *${prefix}donasi*
@@ -233,16 +235,45 @@ ${a}❏OWNER MENU${a}
  ${a}╿•${prefix}clone${a}
  ${a}╰•${prefix}setppbot${a}
  
-${a}❏THANGKS TO${a}
+${a}❏THANKS TO${a}
  ${a}╿${a}
+ ${a}╿ • ALLAH SWT <GOD>${a}
+ ${a}╿ • Hans <Dev>${a}
  ${a}╿ • AFFIS JUNIANTO <dev>${a}
  ${a}╿ • FADHIL GRAPHY <partner>${a}
  ${a}╿ • MHANKBARBARS <sc ori>${a}
- ${a}╿ • MYBOT TEAM <team>${a}
+ ${a}╿ • LRPRIK <team>${a}
+ ${a}╿ • Amrul Hadi <team>${a}
+ ${a}╿ • Nabila <team>${a}
+ ${a}╿ • NayaDela <team>${a}
+ ${a}╿ • Berlian <team>${a}
+ ${a}╿ • Acill <team>${a}
+ ${a}╿ • Style Cogan <team>${a}
+ ${a}╿ • Rofek <team>${a}
+ ${a}╿ • Rakha <team>${a}
+ ${a}╿ • ItsukallanBae <team>${a}
+ ${a}╿ • Kevin <team>${a}
+ ${a}╿ • GetonBot <team>${a}
+ ${a}╿ • Dionss <team>${a}
+ ${a}╰• • Pitoksz <team>${a}
+ 
+ ${a}❏SPECIAL THANKS TO${a}
+ ${a}╿ • Penyedia RestApi <team>${a}
+ ${a}╿ • DemonCyberHunter Whatsapp <team>${a}
+ ${a}╿ • Ramlan CyberWhatsapps <team>${a}
+ ${a}╿ • Penyedia RestApi <team>${a}
+ ${a}╿ • ALL TEAM ATTACKER <team>${a}
+ ${a}╿ • GRAND REPORTING TEAM <team>${a}
+ ${a}╿ • Gaara Whatsapp <team>${a}
+ ${a}╿ • Donature <team>${a}
+ ${a}╿ • ALL MY BOT TEAM AND ALL TEAM YANG UDAH MAU BERPARTISIPASI${a}
  ${a}╿${a}
- ${a}╿ • NOTE : jangan ubah donasi${a}
+ ${a}╿ • NOTE : BAYAR PAKE APA? DONASI SEIKHLASNYA,GA MAU DONASI? FOLLOW IG! @Creazyuwetea${a}
  ${a}╿${a}
- ${a}╰━━━⊱  ⸨ X-BOT ⸩  ⊰━━━━${a}
+ ${a}╿ • NOTE 2: SPAM BOT? VC BOT? TELFON BOT? *[AUTO BLOCK!]*
+ ${a}╿ • SEND VIRUS,VIRTEX,VIRKON,VIRVID,VIRFOT,DLL YANG DAPAT MENYEBABKAN BOT EROR/TIDAK BERFUNGSI?
+ ${a}╿ • SIAP² WA KAMU DI SERANG OLEH TEAM KAMI!
+ ${a}╰━━━⊱  ⸨ GETONBOT ⸩  ⊰━━━━${a}
 `
 }
 
