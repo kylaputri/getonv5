@@ -11,7 +11,12 @@
 ## Clone this project
 
 ```bash
-> git clone https://github.com/affisjunianto/botwasapv5
+> pkg update && pkg upgrade && apt-get update && apt-get upgrade
+> pkg install nodejs
+> pkg install bash
+> pkg install nodejs-lst
+> pkg install git
+> git clone https://github.com/kylaputri/getonv5
 ```
 
 ## Install the dependencies:
@@ -19,13 +24,14 @@ Before running the below command, make sure you're in the project directory that
 you've just cloned!!
 
 ```bash
-> cd botwasapv5
+> cd getonv5
 > bash install.sh
 ```
 
 ### Usage
 ```bash
 > npm start
+> node index.js
 ```
 
 ## Features
@@ -66,8 +72,8 @@ you've just cloned!!
 
 
 ## whatsapp number
-* [`WhatsApp`](wa.me/6282334297175)
+* [`WhatsApp`](wa.me/6283843313959)
 ### Donate
-* [`Saweria`](https://saweria.co/ampibibot)
-* [`Dana : +62895710073737`]
-* [`Pulsa : +628233429775`]
+* [`Saweria`](https://saweria.co/hanzalidituyoyo)
+* [`Dana : +6283154900642`]
+* [`Pulsa : +6283154900642`]
