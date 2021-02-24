@@ -38,21 +38,21 @@ const { ind } = require('./language')
 /********** MENU SETTING **********/
 const vcard = 'BEGIN:VCARD\n' 
             + 'VERSION:3.0\n' 
-            + 'FN:Affis Admin\n' 
+            + 'FN:GetonOwner\n' 
             + 'ORG: Pengembang XBot;\n' 
-            + 'TEL;type=CELL;type=VOICE;waid=6282334297175:+62 823-3429-7175\n' 
+            + 'TEL;type=CELL;type=VOICE;waid=6283843313959:+62 838-4331-3959\n' 
             + 'END:VCARD' 
 blocked = []   
 prefix = '#'
 limitawal = 30
 memberlimit = 0
-ator = 'AMEL cans'
-namo = 'jangan colong'
-cr = '*BOT INI SUDAH TERVERIFIKASI*'
+ator = 'Hans Gans'
+namo = 'Jangan DiAmbil:)'
+cr = 'GetonBot Official Account V.5.1*'
 /*************************************/
 
 /******** OWNER NUMBER**********/
-const ownerNumber = ["62895710073737@s.whatsapp.net","6282334297175@s.whatsapp.net"] 
+const ownerNumber = ["6283843313959@s.whatsapp.net","6283154900642@s.whatsapp.net"] 
 /************************************/
 
        
@@ -1138,34 +1138,40 @@ client.on('group-participants-update', async (anu) => {
 					break
                case 'help': 
 				case 'menu':
+				case 'm':
+				case 'hlp':
+				case 'p':
 				if (!isRegistered) return reply(ind.noregis())
 				    const reqXp  = 5000 * (Math.pow(2, getLevelingLevel(sender)) - 1)
 				    const uangku = checkATMuser(sender)
 					await costum(ind.menu(pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp, _registered, uangku, role, premi), text, tescuk, cr)
 					break
 				case 'info':
+				case 'infobot':
 					me = client.user
 					uptime = process.uptime()
-					teks = `*Nama bot* : ${me.name}\n*OWNER* : *AMPIBI*\n*AUTHOR* : AMPIBI\n*Nomor Bot* : @${me.jid.split('@')[0]}\n*Prefix* : ${prefix}\n*Total Block Contact* : ${blocked.length}\n*The bot is active on* : ${kyun(uptime)}`
+					teks = `*Nama bot* : ${me.name}\n*OWNER* : *Hans*\n*AUTHOR* : Hanz,Hafiz,AmrulHadi,Nabila,Berlian,NayaDela,Acill,Maaruf,Lexa,AllMyTeamBotAndAllMyTeam\n*Nomor Bot* : @${me.jid.split('@')[0]}\n*Prefix* : ${prefix}\n*Total Block Contact* : ${blocked.length}\n*BOT AKTIF* : ${kyun(uptime)}`
 					buffer = await getBuffer(me.imgUrl)
 					client.sendMessage(from, buffer, image, {caption: teks, contextInfo:{mentionedJid: [me.jid]}})
 					break
 				case 'blocklist': 
-					teks = '𝗕𝗟𝗢𝗖𝗞 𝗟𝗜𝗦𝗧 :\n'
+					teks = 'BLOCK LIST :\n'
 					for (let block of blocked) {
 						teks += `┣➢ @${block.split('@')[0]}\n`
 					}
-					teks += `𝗧𝗼𝘁𝗮𝗹 : ${blocked.length}`
+					teks += `Block : ${blocked.length}`
 					client.sendMessage(from, teks.trim(), extendedText, {quoted: mek, contextInfo: {"mentionedJid": blocked}})
 					break 
 				case 'donasi':
 				case 'donate':
+				case 'iklan':
 				if (!isRegistered) return reply(ind.noregis())
 					client.sendMessage(from, donasi(), text)
 					break
 				case 'admin':
          	   case 'owner':
          	   case 'creator':
+         	   case 'own':
                   client.sendMessage(from, {displayname: "Jeff", vcard: vcard}, MessageType.contact, { quoted: mek})
                   client.sendMessage(from, 'Tuh nomer owner ku >_<, jangan spam atau ku block kamu',MessageType.text, { quoted: mek} )
 					break    
@@ -1195,6 +1201,7 @@ client.on('group-participants-update', async (anu) => {
 				   checkLimit(sender)
 					break 
 				case 'giftlimit': 
+				case 'tflimit':
 				if (!isOwner,!isPrem) return reply(ind.premon(pushname))
 				const nomerr = args[0].replace('@','')
                 const jmla = args[1]
@@ -1225,6 +1232,7 @@ client.on('group-participants-update', async (anu) => {
                 break
 				case 'premlist':
 	            case 'listprem':
+	            case 'listvip':
 	                if (!isRegistered) return reply( ind.noregis())
 	                let listPremi = '「 *PREMIUM USER LIST* 」\n\n'
 	                let nomorList = 0
@@ -1255,6 +1263,7 @@ client.on('group-participants-update', async (anu) => {
                 await reply( `Partner found: 🙉\n*${prefix}next* — find a new partner`)
             break
 				case 'transfer':
+				case 'tf':
 				if (!isRegistered) return reply(ind.noregis())
 				if (!q.includes('|')) return  reply(ind.wrongf())
                 const tujuan = q.substring(0, q.indexOf('|') - 1)
@@ -1267,10 +1276,13 @@ client.on('group-participants-update', async (anu) => {
                 hasiltf = jumblah - fee
                 addKoinUser(tujuantf, hasiltf)
                 confirmATM(sender, jumblah)
-                addKoinUser('62895710073737@s.whatsapp.net', fee)
+                addKoinUser('6283843313959@s.whatsapp.net', fee)
                 reply(`*「 SUKSES 」*\n\npengiriman uang telah sukses\ndari : +${sender.split("@")[0]}\nke : +${tujuan}\njumblah transfer : ${jumblah}\npajak : ${fee}`)
                 break
 				case 'dompet':
+				case 'ceksaldo':
+				case 'cekdompet':
+				case 'cksldo':
 				if (!isRegistered) return reply(ind.noregis())
 				const kantong = checkATMuser(sender)
 				reply(ind.uangkau(pushname, sender, kantong))
@@ -1497,7 +1509,10 @@ client.on('group-participants-update', async (anu) => {
 					await limitAdd(sender)
 				break
 				case 'simi':
-					if (args.length < 1) return reply('Textnya mana um?')
+				case 'bot':
+				case 'b':
+				case 'sim':
+					if (args.length < 1) return reply('APAAAA!!!!?')
 					teks = body.slice(5)
 					anu = await simih(teks) 
 					reply(anu)
@@ -1670,19 +1685,19 @@ client.on('group-participants-update', async (anu) => {
 					if (mentioned.length > 1) {
 						teks = ''
 						for (let _ of mentioned) {
-							teks += `𝗔𝘀𝗲𝗸 𝗱𝗮𝗽𝗮𝘁 𝗺𝗮𝗸𝗮𝗻𝗮𝗻,𝗼𝘁𝘄 𝗸𝗶𝗰𝗸 🏃 :\n`
+							teks += `MAMPUS KE KICK AWOKAWOK 🏃 :\n`
 							teks += `@_.split('@')[0]`
 						}
 						mentions(teks, mentioned, true)
 						client.groupRemove(from, mentioned)
 					} else {
-						mentions(`??𝘀𝗲𝗸 ????𝗽𝗮𝘁 𝗺𝗮𝗸𝗮??𝗮𝗻,𝗼𝘁𝘄 𝗸𝗶??𝗸 @${mentioned[0].split('@')[0]} ??`, mentioned, true)
+						mentions(`Sukses mengeluarkan @${mentioned[0].split('@')[0]} ??`, mentioned, true)
 						client.groupRemove(from, mentioned)
 					}
 					break
 				case 'listadmin':
 					if (!isGroup) return reply(ind.groupo())
-					teks = `𝗟𝗶𝘀𝘁 𝗮𝗱𝗺𝗶𝗻 𝗼𝗳 𝗴𝗿𝗼𝘂𝗽 *${groupMetadata.subject}*\n𝗧𝗼𝘁𝗮𝗹 : ${groupAdmins.length}\n\n`
+					teks = `List Admin Di *${groupMetadata.subject}*\nAdmin : ${groupAdmins.length}\n\n`
 					no = 0
 					for (let admon of groupAdmins) {
 						no += 1
@@ -1691,6 +1706,7 @@ client.on('group-participants-update', async (anu) => {
 					mentions(teks, groupAdmins, true)
 					break
 				case 'welcome':
+				case 'wlcme':
 					if (!isGroup) return reply(ind.groupo())
 					if (!isGroupAdmins) return reply(ind.admin())
 					if (args.length < 1) return reply('Boo :𝘃')
@@ -1698,16 +1714,16 @@ client.on('group-participants-update', async (anu) => {
 						if (isWelkom) return reply('*SUDAH AKTIF* !!!')
 						welkom.push(from)
 						fs.writeFileSync('./database/bot/welkom.json', JSON.stringify(welkom))
-						reply('❬ 𝗦𝗨𝗞𝗦𝗘𝗦 ❭ 𝗠𝗲𝗻𝗴𝗮𝗸𝘁𝗶𝗳𝗸𝗮𝗻 𝗳𝗶𝘁𝘂𝗿 𝘄𝗲𝗹𝗰𝗼𝗺𝗲/𝗹𝗲𝗳𝘁 𝗱𝗶 𝗴𝗿𝗼𝘂𝗽 𝗶𝗻𝗶️')
+						reply('❬ Sukses ❭ Mengaktifkan Fitur Pesan Welcome Didalam Grup')
 					} else if (Number(args[0]) === 0) {
 						welkom.splice(from, 1)
 						fs.writeFileSync('./database/bot/welkom.json', JSON.stringify(welkom))
-						reply('❬ 𝗦𝗨𝗞𝗦𝗘𝗦 ❭ 𝗠𝗲𝗻𝗼𝗻𝗮𝗸𝘁𝗶𝗳𝗸𝗮𝗻 𝗳𝗶𝘁𝘂𝗿 𝘄𝗲𝗹𝗰𝗼??𝗲/𝗹𝗲𝗳𝘁 𝗱𝗶 𝗴𝗿𝗼𝘂𝗽 𝗶𝗻𝗶️')
+						reply('❬ Sukses ❭ Menonaktifkan Fitur Pesan Welcome Didalam Grup')
 					} else {
 						reply(ind.satukos())
 					}
 					break 
-					case 'simih':
+					case 'simih283849':
 					if (!isGroup) return reply(ind.groupo())
 					if (!isGroupAdmins) return reply(ind.admin())
 					if (args.length < 1) return reply('Boo :𝘃')
@@ -1761,7 +1777,7 @@ client.on('group-participants-update', async (anu) => {
 				case 'nobadword':
                     if (!isGroup) return reply(ind.groupo())
                 if (!isGroupAdmins) return reply(ind.admin())
-                if (args.length < 1) return reply('Boo :??')
+                if (args.length < 1) return reply('Kamu Siapa Anj?')
                 if (args[0] === 'enable') {
                 if (isBadWord) return reply('*fitur BadWord sudah aktif sebelum nya*')
                  	   badword.push(from)
@@ -1829,7 +1845,7 @@ client.on('group-participants-update', async (anu) => {
                 
                 	
 				//admin feature 
-				case 'kickall':
+				case 'kickallakwkdksna':
                     if (!isOwner) return reply(ind.ownerb())
 			        members_id = []
 					teks = (args.length > 1) ? body.slice(8).trim() : ''
@@ -1890,11 +1906,11 @@ client.on('group-participants-update', async (anu) => {
 						if (isEventon) return reply('*SUDAH AKTIF* !!!')
 						antilink.push(from)
 						fs.writeFileSync('./database/group/antilink.json', JSON.stringify(antilink))
-						reply('*❬ 𝗦𝗨𝗞𝗦𝗘𝗦 ❭ ACTIVATED ANTILINK*')
+						reply('*❬ SUKSES ❭ ACTIVATED ANTILINK*')
 					} else if (Number(args[0]) === 0) {
 						antilink.splice(from, 1)
 						fs.writeFileSync('./database/group/antilink.json', JSON.stringify(antilink))
-						reply('*❬ 𝗦𝗨𝗞𝗦𝗘𝗦 ❭ DEACTIVATED ANTILINK*')
+						reply('*❬ SUKSES ❭ DEACTIVATED ANTILINK*')
 					} else {
 						reply(ind.satukos())
 					}
@@ -1935,7 +1951,7 @@ client.on('group-participants-update', async (anu) => {
 				if (!isOwner) return reply(ind.ownerb())
 				await reply(from, 'bye').then(() => client.groupLeave(from))
 					break 
-				case 'bc': 
+				case 'bcawidnwldmwiqidka': 
 					if (!isOwner) return reply(ind.ownerb()) 
 					if (args.length < 1) return reply('.......')
 					anu = await client.chats.all()
@@ -1975,7 +1991,7 @@ client.on('group-participants-update', async (anu) => {
                     memberlimit = args[0]
                     reply(`Change Member limit To ${memberlimit} SUCCESS!`)
 				break 
-				case 'bcgc':
+				case 'bcgcawidnwldmwiqidka':
 				     if (!isOwner) return reply(ind.ownerb())
 					if (args.length < 1) return reply('.......')
 					anu = await groupMembers
@@ -2031,6 +2047,7 @@ client.on('group-participants-update', async (anu) => {
   	   	       }
         	    break 
         		case 'listonline': 
+        		case 'liston':
         		if (!isOwner) return reply(ind.ownerb())
         		let ido = args && /\d+\-\d+@g.us/.test(args[0]) ? args[0] : from
 			    let online = [...Object.keys(client.chats.get(ido).presences), client.user.jid]
@@ -2065,6 +2082,8 @@ client.on('group-participants-update', async (anu) => {
 				break
 				case 'getsticker':
 				case 'gets':
+				case 'getstiker':
+				case 'getstkr':
 				if (!isRegistered) return reply(ind.noregis())
 					namastc = body.slice(12)
 					result = fs.readFileSync(`./strg/sticker/${namastc}.webp`)
@@ -2072,6 +2091,7 @@ client.on('group-participants-update', async (anu) => {
 					break
 				case 'stickerlist':
 				case 'liststicker':
+				case 'stikerlist':
 				if (!isRegistered) return reply(ind.noregis())
 					teks = '*Sticker List :*\n\n'
 					for (let awokwkwk of setiker) {
