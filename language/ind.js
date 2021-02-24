@@ -118,7 +118,7 @@ exports.reglevelahf = (command, pushname, getLevelingLevel, sender, ahf) => {
 
 exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp, _registered, uangku, role, premi) => { 
 	return `
-┏━━━⊱  *ABOUT USER*  ⊰━━┓
+┏━━━⊱  *INFO GETON USER*  ⊰━━┓
 ┣⊱ *Nama* : ${pushname}
 ┣⊱ *Premium* : ${premi}
 ┣⊱ *Nomer* : wa.me/${sender.split("@")[0]}
@@ -128,6 +128,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ┣⊱ *Role* : ${role}
 ┣⊱ *User register* : ${_registered.length}
 ┣⊱ *Tes Bot On/Off : *${prefix}bot*
+┣⊱ *BOT AKTIF* : ${kyun(uptime)}
 ┣⊱ *Jangan SPAM YA SAYANG!
 ┗━━━⊱  ⸨ *GetonBot* ⸩  ⊰━━━━┛
 
