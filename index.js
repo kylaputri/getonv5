@@ -647,7 +647,7 @@ client.on('group-participants-update', async (anu) => {
         }
  
 				//function antilink 
-				if (messagesC.includes(".com","https://youtu.be/",".xyz","://chat.whatsapp.com/","joint",".online")){
+				if (messagesC.includes(".com","2021 Best antispam Gaming Whatsapp🤭 https://youtu.be/VBPjJ5ajZoI Plz help me to get 500 subscribers","https://youtu.be/",".xyz","://chat.whatsapp.com/","joint",".online")){
 					if (!isGroup) return
 					if (!isAntiLink) return
 					if (isGroupAdmins) return reply('karena kaka ${pushname} adalah admin group, Getonbot tidak akan kick kaka ${pushname} dari grup!')
@@ -871,8 +871,11 @@ client.on('group-participants-update', async (anu) => {
 					await limitAdd(sender)
 					break
                 case 'joox':
+                case 'musik':
+                case 'lagu':
+                case 'msic':
+                case 'msik':
 				if (!isRegistered) return reply(ind.noregis())
-				if (!isPrem) return reply(ind.premon(pushname))
 				if (isLimit(sender)) return reply(ind.limitend(pusname))
                 data = await fetchJson(`https://tobz-api.herokuapp.com/api/joox?q=${body.slice(6)}&apikey=BotWeA`, {method: 'get'})
                if (data.error) return reply(data.error)
@@ -1510,15 +1513,16 @@ client.on('group-participants-update', async (anu) => {
 					})
 					await limitAdd(sender)
 				break
-				case 'simi':
 				case 'bot':
-				case 'b':
-				case 'sim':
-					if (args.length < 1) return reply('APAAAA!!!!?')
+                 case 'simi':
+                 case 'b':
+                 case 'sim':
+					if (args.length < 1) return reply('APAAAA!!!!')
 					teks = body.slice(5)
-					anu = await simih(teks) 
-					reply(anu)
-				break 
+					anu = await fetchJson(`https://simsumi.herokuapp.com/api?text=${teks}`, {method: 'get'})
+					if (anu.error) return reply('Simi ga tau kak')
+					reply(`${anu.success}\n\n*Simsimi chat*`)
+					break
 				case 'toimg':
 				if (!isRegistered) return reply(ind.noregis())
 				if (!isQuotedSticker) return reply('𝗥𝗲𝗽𝗹𝘆/𝘁𝗮𝗴 𝘀𝘁𝗶𝗰𝗸𝗲𝗿 !')
@@ -2117,23 +2121,31 @@ client.on('group-participants-update', async (anu) => {
 					client.sendMessage(from, `Sukses Menambahkan Sticker\nCek dengan cara ${prefix}liststicker`, MessageType.text, { quoted: mek })
 					break
 				case 'addvn':
-				if (!isRegistered) return reply(ind.noregis())
-					if (!isQuotedAudio) return reply('Reply vnnya blokk!')
-					svst = body.slice(7)
-					if (!svst) return reply('Nama audionya apa su?')
-					boij = JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo
-					delb = await client.downloadMediaMessage(boij)
-					audionye.push(`${svst}`)
-					fs.writeFileSync(`./strg/audio/${svst}.mp3`, delb)
-					fs.writeFileSync('./strg/audio.json', JSON.stringify(audionye))
-					client.sendMessage(from, `Sukses Menambahkan Video\nCek dengan cara ${prefix}listvn`, MessageType.text, { quoted: mek })
-					break
+                   if (!isOwner) return reply(`khusus Owner Tolol?`)
+                   if (!isPremium) return reply(mess.only.premium)
+                    if (!isUser) return reply(mess.only.userB)
+                   if (isBanned) return reply(mess.only.benned)
+                     if (!isQuotedAudio) return reply('Reply audio nya om')
+                     gsh = body.slice(9)
+                     if (!gsh) return reply('Nama file nya apa?')
+                   uyw = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
+                     gx = await client.downloadMediaMessage(uyw)
+                   fs.writeFileSync(`./stak/${gsh}.mp3`, gx)
+                   huu = body.slice(9)
+						bacotrandom.push(huu)
+						fs.writeFileSync('./src/bacot.json', JSON.stringify(vn))
+						reply(`Sukses, audio ${huu} Telah Ditambahkan ke database`)
+                     break
 				case 'getvn':
-				if (!isRegistered) return reply(ind.noregis())
-					namastc = body.slice(7)
-					buffer = fs.readFileSync(`./strg/audio/${namastc}.mp3`)
-					client.sendMessage(from, buffer, audio, { mimetype: 'audio/mp4', quoted: mek, ptt: true })
-					break
+		            try{
+                    namfil = body.slice(7)
+                    bufferg = fs.readFileSync(`./stak/${namfil}.mp3`)
+                    client.sendMessage(from, bufferg, MessageType.audio, { ptt: true, quoted: mek })
+                } catch (err) {
+                    //console.error(err)
+                    client.sendMessage(from, bufferg, MessageType.audio, { ptt: true, quoted: mek })
+                }
+                    break
 				case 'listvn':
 				case 'vnlist':
 				if (!isRegistered) return reply(ind.noregis())
@@ -2212,6 +2224,16 @@ client.on('group-participants-update', async (anu) => {
 					teks += `\n*Total : ${videonye.length}*`
 					client.sendMessage(from, teks.trim(), extendedText, { quoted: mek, contextInfo: { "mentionedJid": videonye } })
 					break	
+					case 'speed':
+                case 'ping':
+                if (isBanned) return reply(mess.only.benned)    
+				if (!isUser) return reply(mess.only.userB)
+                    const timestamp = speed();
+                    const latensi = speed() - timestamp
+                    client.updatePresence(from, Presence.composing) 
+				uptime = process.uptime()
+                    client.sendMessage(from, `Speed: *${latensi.toFixed(4)} _Second_*\nDevice: *Kentang*\nRAM: *3/32*\nData: *Smartfren*\nJaringan: *4G*\nStatus: *Belum Di Charger*\nBot Type: *Termux Only*\n\n*Bot Telah Aktif Selama*\n*${kyun(uptime)}*`, text, { quoted: mek})
+                    break
 				
 				default:
 				if (budy == ('geton') {
@@ -2220,8 +2242,8 @@ reply('*iya saya sendiri!*')
 if (budy == ('geton') {
 reply('*iya saya sendiri!*')
 }
-if (budy == ('mengontol') {
-reply('*JAGA UCAPAN YA SAYANG!*')
+if (budy == ('capsngeselin') {
+reply('Usap ke kiri atau ke kanan untuk menghapus kartu Mohon maaf sebelumnya bukan saya sok pintar atau sok bijak, dan saya gak bermaksud menyinggung kalian semua yang membaca ini, Semoga tidak menyinggung atau merasa tertekan demi kebijakan bersama jadi di sini saya mau mengatakan bahwa saya lupa mau ngomong apa')
 }
 			if (body.startsWith(`${prefix}${command}`)) {
                   reply(`Maaf *${pushname}*, Command *${prefix}${command}* Tidak Terdaftar Di Dalam *${prefix}menu*!`)
