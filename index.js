@@ -532,7 +532,7 @@ client.on('group-participants-update', async (anu) => {
 				premi = '*✓*'
 			} 
 			if (isOwner) {
-				premi = '*owner*'
+				premi = '*LORD*'
 			}
 				
 				
@@ -2236,13 +2236,12 @@ client.on('group-participants-update', async (anu) => {
                     break
 				
 				default:
-				
-				if (budy == ('geton') {
-                reply(`*iya saya sendiri!*`)
-                }
-                if (budy == ('capsngeselin') {
-                reply(`Usap ke kiri atau ke kanan untuk menghapus kartu Mohon maaf sebelumnya bukan saya sok pintar atau sok bijak, dan saya gak bermaksud menyinggung kalian semua yang membaca ini, Semoga tidak menyinggung atau merasa tertekan demi kebijakan bersama jadi di sini saya mau mengatakan bahwa saya lupa mau ngomong apa`)
-                }
+				if (body =='bot') {
+reply(`Apa!`)
+}
+                if (body =='@') {
+reply(`KENAPA TAG DIA? KAYA KENAL SAMA DIA AJA!`)
+}
 			if (body.startsWith(`${prefix}${command}`)) {
                   reply(`Maaf *${pushname}*, Command *${prefix}${command}* Tidak Terdaftar Di Dalam *${prefix}menu*!`)
                   }
