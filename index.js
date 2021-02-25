@@ -2239,6 +2239,21 @@ client.on('group-participants-update', async (anu) => {
 				if (body =='bot') {
 reply(`Apa!`)
 }
+if (body =='assalam') {
+reply(`*Waallaikumsalam warahmatullahi wabarokatuh kak (≧▽≦)*`)
+}
+if (body =='asalam') {
+reply(`*Waallaikumsalam warahmatullahi wabarokatuh kak (≧▽≦)*`)
+}
+if (body =='laikum') {
+reply(`*Waallaikumsalam warahmatullahi wabarokatuh kak (≧▽≦)*`)
+}
+if (body =='assalamu') {
+reply(`*Waallaikumsalam warahmatullahi wabarokatuh kak (≧▽≦)*`)
+}
+if (body =='asalamu') {
+reply(`*Waallaikumsalam warahmatullahi wabarokatuh kak (≧▽≦)*`)
+}
                 if (body =='@') {
 reply(`KENAPA TAG DIA? KAYA KENAL SAMA DIA AJA!`)
 }
