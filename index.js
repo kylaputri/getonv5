@@ -44,8 +44,8 @@ const vcard = 'BEGIN:VCARD\n'
             + 'END:VCARD' 
 blocked = []   
 prefix = '#'
-limitawal = 30
-memberlimit = 0
+limitawal = 50
+memberlimit = 1
 ator = 'Hans Gans'
 namo = 'Jangan DiAmbil:)'
 cr = 'GetonBot Official Account V.5.1*'
@@ -647,10 +647,10 @@ client.on('group-participants-update', async (anu) => {
         }
  
 				//function antilink 
-				if (messagesC.includes("://chat.whatsapp.com/")){
+				if (messagesC.includes(".com","https://youtu.be/",".xyz","://chat.whatsapp.com/","joint",".online")){
 					if (!isGroup) return
 					if (!isAntiLink) return
-					if (isGroupAdmins) return reply('karena kamu adalah admin group, bot tidak akan kick kamu')
+					if (isGroupAdmins) return reply('karena kaka ${pushname} adalah admin group, Getonbot tidak akan kick kaka ${pushname} dari grup!')
 					client.updatePresence(from, Presence.composing)
 					if (messagesC.includes("#izinadmin")) return reply("#izinadmin diterima")
 					var kic = `${sender.split("@")[0]}@s.whatsapp.net`
@@ -715,6 +715,8 @@ client.on('group-participants-update', async (anu) => {
 			switch(command) { 
 				//premiom
 				case 'checkprem':
+				case 'cekprem':
+				case 'cekvip':
 				const cekExp = ms(getPremiumExpired(sender) - Date.now())
 				reply(`*「 PREMIUM EXPIRED 」*\n\n➸ *ID*: ${sender.split('@')[0]}\n➸ *Premium left*: ${cekExp.days} day(s) ${cekExp.hours} hour(s) ${cekExp.minutes} minute(s)`)
 				break
@@ -1600,9 +1602,9 @@ client.on('group-participants-update', async (anu) => {
                       if (isLimit(sender)) return reply(ind.limitend(pushname))
                       if (!isEventon) return reply(`maaf ${pushname} event mining tidak di aktifkan oleh owner`)
                       if (isOwner) {
-                      const one = 999999999
+                      const one = 999999999999
                       addLevelingXp(sender, one)
-                      addLevelingLevel(sender, 99)
+                      addLevelingLevel(sender, 999)
                       reply(`karena anda owner kami dari team bot mengirim ${one}Xp untuk anda`)
                       }else{
                       const mining = Math.ceil(Math.random() * 10000)
@@ -2011,6 +2013,8 @@ client.on('group-participants-update', async (anu) => {
 					}
 					break 
 				case 'addprem':
+				case 'adprem':
+				case 'addvip':
 				if (!isOwner) return reply(ind.ownerb())
 				expired = "30d"
 				if (args.length < 1 ) return reply(' tag member')
@@ -2186,6 +2190,18 @@ client.on('group-participants-update', async (anu) => {
 					buffer = fs.readFileSync(`./strg/video/${namastc}.mp4`)
 					client.sendMessage(from, buffer, video, { mimetype: 'video/mp4', quoted: mek })
 					break
+					case 'beban':
+					if (isBanned) return reply(mess.only.benned)   
+					if (!isUser) return reply(mess.only.userB)
+					membr = []
+					const met = groupMembers
+					const msd = groupMembers
+					const siapsa = met[Math.floor(Math.random() * met.length)]
+					const sipsd = pushname2[Math.floor(Math.random() * msd.length)]
+					teks = `Yang paling Beban disini Adalah : @${siapsa.jid.split('@')[0]}`
+					membr.push(siapsa.jid)
+					mentions(teks, membr, true)
+					break
 				case 'listvideo':
 				case 'videolist':
 				if (!isRegistered) return reply(ind.noregis())
@@ -2198,6 +2214,15 @@ client.on('group-participants-update', async (anu) => {
 					break	
 				
 				default:
+				if (budy == ('geton') {
+reply('*iya saya sendiri!*')
+}
+if (budy == ('geton') {
+reply('*iya saya sendiri!*')
+}
+if (budy == ('mengontol') {
+reply('*JAGA UCAPAN YA SAYANG!*')
+}
 			if (body.startsWith(`${prefix}${command}`)) {
                   reply(`Maaf *${pushname}*, Command *${prefix}${command}* Tidak Terdaftar Di Dalam *${prefix}menu*!`)
                   }
