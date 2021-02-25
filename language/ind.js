@@ -140,8 +140,8 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ┣⊱ *Level* : ${getLevelingLevel(sender)}
 ┣⊱ *Role* : ${role}
 ┣⊱ *User register* : ${_registered.length}
-┣⊱ *Tes Bot On/Off : *${prefix}bot*
-┣⊱ *Jangan SPAM YA SAYANG!
+┣⊱ *Tes Bot On/Off : bot*
+┣⊱ *Jangan SPAM YA SAYANG!*
 ┗━━━⊱  ⸨ *GetonBot* ⸩  ⊰━━━━┛
 
  *${prefix}info*
