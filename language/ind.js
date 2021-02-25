@@ -118,7 +118,20 @@ exports.reglevelahf = (command, pushname, getLevelingLevel, sender, ahf) => {
 
 exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp, _registered, uangku, role, premi) => { 
 	return `
-┏━━━⊱  *INFO GETON USER*  ⊰━━┓
+⠀      ｡ﾟﾟ･｡･ﾟﾟ｡
+         ﾟ。    　｡ﾟ
+             ﾟ･｡･ﾟ
+       ︵               ︵ 
+    (        ╲       /       /  NIH BUAT
+      ╲          ╲/       /
+           ╲          ╲  /   KAMU BEB
+          ╭ ͡   ╲           ╲
+     ╭ ͡   ╲        ╲       ﾉ SIMPEN YA
+╭ ͡   ╲        ╲         ╱
+ ╲       ╲          ╱    JAGA BAIK BAIK
+      ╲         ╱      
+          ︶           LOVE YOU 😘😘😘
+┏━━━⊱  *INFO USER*  ⊰━━┓
 ┣⊱ *Nama* : ${pushname}
 ┣⊱ *Premium* : ${premi}
 ┣⊱ *Nomer* : wa.me/${sender.split("@")[0]}
@@ -273,7 +286,7 @@ ${a}❏THANKS TO${a}
  ${a}╿ • NOTE 2: SPAM BOT? VC BOT? TELFON BOT? *[AUTO BLOCK!]*
  ${a}╿ • SEND VIRUS,VIRTEX,VIRKON,VIRVID,VIRFOT,DLL YANG DAPAT MENYEBABKAN BOT EROR/TIDAK BERFUNGSI?
  ${a}╿ • SIAP² WA KAMU DI SERANG OLEH TEAM KAMI!
- ${a}╰━━━⊱  ⸨ GETONBOT ⸩  ⊰━━━━${a}
+ ${a}╰━━━⊱  ⸨ GetonBot ⸩  ⊰━━━━${a}
 `
 }
 
