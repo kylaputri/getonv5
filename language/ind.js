@@ -229,9 +229,9 @@ ${a}❏CLOUD STORAGE${a}
  ${a}╿•${prefix}getimage${a}
  ${a}╿•${prefix}addImage${a}
  ${a}╿•${prefix}imagelist${a}
- ${a}╿•${prefix}addaudio${a}
- ${a}╿•${prefix}getaudio${a}
- ${a}╰•${prefix}audiolist${a}
+ ${a}╿•${prefix}addvn${a}
+ ${a}╿•${prefix}getvn${a}
+ ${a}╰•${prefix}listvn${a}
 ${a}❏OWNER MENU${a}
  ${a}╿•${prefix}bc${a}
  ${a}╿•${prefix}addbadword${a}
