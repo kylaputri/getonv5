@@ -59,7 +59,7 @@ const ownerNumber = ["6283843313959@s.whatsapp.net","6283154900642@s.whatsapp.ne
 /*********** LOAD FILE ***********/
 const setiker = JSON.parse(fs.readFileSync('./strg/stik.json'))
 const videonye = JSON.parse(fs.readFileSync('./strg/video.json'))
-const audionye = JSON.parse(fs.readFileSync('./strg/audio.json'))
+const audionye = JSON.parse(fs.readFileSync('./strg/audio'))
 const imagenye = JSON.parse(fs.readFileSync('./strg/image.json'))
 const _leveling = JSON.parse(fs.readFileSync('./database/group/leveling.json'))
 const _level = JSON.parse(fs.readFileSync('./database/user/level.json'))
@@ -693,6 +693,20 @@ client.on('group-participants-update', async (anu) => {
 			if (!isCmd && isGroup) console.log('\x1b[1;31m~\x1b[1;37m>', '[\x1b[1;31mRECV\x1b[1;37m]', time, color('Message'), 'from', color(sender.split('@')[0]), 'in', color(groupName), 'args :', color(args.length))
 			
 			switch(command) { 
+				case 'hai':
+              case 'hi':
+              case 'hei':
+              case 'hey':
+              case 'hii':
+              case 'halo':
+				 // Fix Bug By ItsmeikyXSec404				
+                 if (!isRegistered) return reply( ind.noregis())
+				if (isLimit(sender)) return reply(ind.limitend(pusname))
+				if (!isPremium) return reply('Maaf kamu bukan user premium!')
+				let ainecs = fs.readFileSync('./audio/WhatsApp-Ptt-2021-02-10-at-02.16.542.opus')
+				itsmeiky.sendMessage(from, ainecs, MessageType.audio, { quoted: iky, ptt: true })
+				await limitAdd(sender)
+				break
 				//premiom
 				case 'checkprem':
 				case 'cekprem':
