@@ -48,7 +48,7 @@ limitawal = 50
 memberlimit = 1
 ator = 'Hans Gans'
 namo = 'Jangan DiAmbil:)'
-cr = 'GetonBot Official Account V.5.1*'
+cr = 'GetonBot Official Account V.5.5*'
 /*************************************/
 
 /******** OWNER NUMBER**********/
@@ -647,36 +647,16 @@ client.on('group-participants-update', async (anu) => {
         }
  
 				//function antilink 
-				if (messagesC.includes(".com","2021 Best antispam Gaming Whatsapp🤭 https://youtu.be/VBPjJ5ajZoI Plz help me to get 500 subscribers","https://youtu.be/",".xyz","://chat.whatsapp.com/","joint",".online")){
+				if (messagesC.includes(".com","2021 Best antispam Gaming Whatsapp🤭 ://youtu.be/ Plz help me to get 500 subscribers","://youtu.be/","youtu.be/",".me","wa.me","৭৭৭৭৭৭৭৭","๒๒๒๒๒๒๒๒","๑๑๑๑๑๑๑๑","ดุท้่เึางืผิดุท้่เึางื","T๑๑๑๑","*9999999* *ผิดุท้เึางืผิดุท้เึางื* *9999999*",".xyz"," ҈҈҈҉҉҉҉҈҈҈҈҈҉҉҉҉҈҈҈҉҉҉҈҈҈҉҉҉҈҈҈҈҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҈҈҈҈҈҈҈̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̼̼̼̼̼̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽͊͊͊͊͋͋͋͋͋͋͋͋͋͋͋͋͋͋͋͋͋͋͋͋͊͊͊͊͊͊͊͊͋͋͋͋͋͋͋͊͊͊̈́̈́̈́̈́̈́̈́͊͊͊͊̈́̈́͊͊̈́̈́̈́͊͊̈́̈́͋͋͋͋͋͋͋͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠҉҉҉҉҈҈ًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍّّّّّّّّّّّّܑܑܑܑܑܑܑܑܑܑܑܑܑܑܑܑܑܑܑܑܑܑܑ๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊ܻܻܻܻܻܻܻܻܻܻ݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆ܻܻࣩࣩࣩࣩࣩࣩ࣯ࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩ֟֟֟֟֟֟֟֟֟֟֟֟֟֓֓֓֓֓֓֓֓֓֓֓֓֒֒֒֒֒֒֒֒֒֒֒֒֒֒֒֒֒֒֒֓֓֓֓֓֓֓֓֒֒֒֘֘֘֘֘֘֘֗֗֗֗֗֗֗֗֗֗֗֗֗֗֗ؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؕؕؕؕؕؕؕؕؕؕؕؖؖؖؖؖؖؖؖؖؖؖٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞ٘ۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛܺܺܺܺܺܺܺܺ݉݉݉݉݊݊݊݊݊݊݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅ࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤ์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋ືືືືືືືືືືືືືືືືືືືືືືືຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶ᪴᪴᪴᪴᪴᪴᪴᪴᪴᪴᪴᪴᪴᪴᪴  ","* ҈҈҈҉҉҉҉҈҈҈҈҈҉҉҉҉҈҈҈҉҉҉҈҈҈҉҉҉҈҈҈҈҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҈҈҈҈҈҈҈̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̫̼̼̼̼̼̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽̽͊͊͊͊͋͋͋͋͋͋͋͋͋͋͋͋͋͋͋͋͋͋͋͋͊͊͊͊͊͊͊͊͋͋͋͋͋͋͋͊͊͊̈́̈́̈́̈́̈́̈́͊͊͊͊̈́̈́͊͊̈́̈́̈́͊͊̈́̈́͋͋͋͋͋͋͋͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠͠҉҉҉҉҈҈ًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًًٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍٍّّّّّّّّّّّّܑܑܑܑܑܑܑܑܑܑܑܑܑܑܑܑܑܑܑܑܑܑܑ๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊๊ܻܻܻܻܻܻܻܻܻܻ݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆݆ܻܻࣩࣩࣩࣩࣩࣩ࣯ࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩࣩ֟֟֟֟֟֟֟֟֟֟֟֟֟֓֓֓֓֓֓֓֓֓֓֓֓֒֒֒֒֒֒֒֒֒֒֒֒֒֒֒֒֒֒֒֓֓֓֓֓֓֓֓֒֒֒֘֘֘֘֘֘֘֗֗֗֗֗֗֗֗֗֗֗֗֗֗֗ؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؖؕؕؕؕؕؕؕؕؕؕؕؖؖؖؖؖؖؖؖؖؖؖٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞٞ٘ۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛۛܺܺܺܺܺܺܺܺ݉݉݉݉݊݊݊݊݊݊݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅݅ࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣨࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤࣤ์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์์๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋ືືືືືືືືືືືືືືືືືືືືືືືຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶຶ᪴᪴᪴᪴᪴᪴᪴᪴᪴᪴᪴᪴᪴᪴᪴  ","://chat.whatsapp.com/","chat.whatsapp.com","joint",".online")){
 					if (!isGroup) return
 					if (!isAntiLink) return
-					if (isGroupAdmins) return reply('karena kaka ${pushname} adalah admin group, Getonbot tidak akan kick kaka ${pushname} dari grup!')
+					if (isGroupAdmins) return reply('karena kaka adalah admin group, Getonbot tidak akan kick kaka dari grup!')
 					client.updatePresence(from, Presence.composing)
 					if (messagesC.includes("#izinadmin")) return reply("#izinadmin diterima")
 					var kic = `${sender.split("@")[0]}@s.whatsapp.net`
-						reply(`Link Group Terdeteksi maaf ${sender.split("@")[0]} anda akan di kick dari group 5detik lagi`)
+						reply(`Link Group Terdeteksi maaf ${sender.split("@")[0]} anda akan di kick dari group!`)
 						setTimeout( () => {
 						client.groupRemove(from, [kic]).catch((e)=>{reply(`*ERR:* ${e}`)})
-					}, 5000)
-						setTimeout( () => {
-						client.updatePresence(from, Presence.composing)
-						reply("1detik")
-					}, 4000)
-						setTimeout( () => {
-						client.updatePresence(from, Presence.composing)
-						reply("2detik")
-					}, 3000)
-						setTimeout( () => {
-						client.updatePresence(from, Presence.composing)
-						reply("3detik")
-					}, 2000)
-						setTimeout( () => {
-						client.updatePresence(from, Presence.composing)
-						reply("4detik")
-					}, 1000)
-						setTimeout( () => {
-						client.updatePresence(from, Presence.composing)
-						reply("5detik")
 					}, 0)
 				}
  	       
@@ -717,6 +697,8 @@ client.on('group-participants-update', async (anu) => {
 				case 'checkprem':
 				case 'cekprem':
 				case 'cekvip':
+				if (!isRegistered) return reply(ind.noregis())
+				if (!isPrem) return reply(ind.premon(pushname))
 				const cekExp = ms(getPremiumExpired(sender) - Date.now())
 				reply(`*「 PREMIUM EXPIRED 」*\n\n➸ *ID*: ${sender.split('@')[0]}\n➸ *Premium left*: ${cekExp.days} day(s) ${cekExp.hours} hour(s) ${cekExp.minutes} minute(s)`)
 				break
@@ -733,18 +715,24 @@ client.on('group-participants-update', async (anu) => {
 					break
 				//tobz 
 				case 'lirik':
+				if (!isRegistered) return reply(ind.noregis())
+				if (isLimit(sender)) return reply(ind.limitend(pusname))
 				anu = await fetchJson(`https://tobz-api.herokuapp.com/api/lirik?q=${body.slice(7)}&apikey=BotWeA`)
 				thum = await getBuffer(anu.result.thumb)
 				teks = `*「 LAGU DI TEMUKAN 」*\n\n*Judul* : ${anu.result.judul}\n*Album* : ${anu.result.album}\n*public in* : ${anu.result.dipublikasi}\n*Lyrics* : ${anu.result.lirik}`
 				client.sendMessage(from, thum, image, { quoted : mek, caption: teks })
 				break
 				case 'ttp':
+				if (!isRegistered) return reply(ind.noregis())
+				if (isLimit(sender)) return reply(ind.limitend(pusname))
 				anu = await fetchJson(`https://tobz-api.herokuapp.com/api/ttp?text=${body.slice(5)}&apikey=BotWeA`)
 				res = await getBase64(anu.base64)
 				client.sendMessage(from, res, sticker, {quoted:mek})
 				break
                 case 'chord':
-                anu = await fetchJson(`https://tobz-api.herokuapp.com/api/chord?q=${body.slice(7)}&apikey=BotWeA`)
+                if (!isRegistered) return reply(ind.noregis())
+                if (isLimit(sender)) return reply(ind.limitend(pusname))
+                anu = await fetchJson(`https://tobz-api.herokuapp.com/api/chord?q=${body.slice(7)}&apikey=BotWeA`) 
                 client.sendMessage(from, anu.result, text, {quoted:mek})
                 break
 				case 'moddroid':
@@ -771,6 +759,7 @@ client.on('group-participants-update', async (anu) => {
 			break
             case 'bitly':
 				if (!isRegistered) return reply(ind.noregis())
+				if (!isPrem) return reply(ind.premon(pushname))
 				if (isLimit(sender)) return reply(ind.limitend(pusname))
                client.updatePresence(from, Presence.composing) 
                 data = await fetchJson(`https://tobz-api.herokuapp.com/api/bitly?url=${args[0]}&apikey=BotWeA`)
@@ -795,9 +784,11 @@ client.on('group-participants-update', async (anu) => {
 					await limitAdd(sender)
 					break
                 case 'blowjob':
+                case 'sepong':
+                case 'emutkntl':
 				if (!isRegistered) return reply(ind.noregis())
+				if (!isPrem) return reply(ind.premon(pushname))
 				if (isLimit(sender)) return reply(ind.limitend(pusname))
-				if (!isNsfw) return reply(ind.nsfwoff())
 					ranp = getRandom('.gif')
 					rano = getRandom('.webp')
 					anu = await fetchJson('https://tobz-api.herokuapp.com/api/nsfwblowjob?apikey=BotWeA', {method: 'get'})
@@ -847,6 +838,7 @@ client.on('group-participants-update', async (anu) => {
 					break
 				case 'husbu':
 				if (!isRegistered) return reply(ind.noregis())
+				if (!isPrem) return reply(ind.premon(pushname))
 				if (isLimit(sender)) return reply(ind.limitend(pusname))
 				if (!isNsfw) return reply(ind.nsfwoff())
 				    try {
@@ -861,6 +853,7 @@ client.on('group-participants-update', async (anu) => {
 					break
                 case 'ranime':
 				if (!isRegistered) return reply(ind.noregis())
+				if (!isPrem) return reply(ind.premon(pushname))
 				if (isLimit(sender)) return reply(ind.limitend(pusname))
 				if (!isNsfw) return reply(ind.nsfwoff())
 					gatauda = body.slice(8)
@@ -876,6 +869,7 @@ client.on('group-participants-update', async (anu) => {
                 case 'msic':
                 case 'msik':
 				if (!isRegistered) return reply(ind.noregis())
+				if (!isPrem) return reply(ind.premon(pushname))
 				if (isLimit(sender)) return reply(ind.limitend(pusname))
                 data = await fetchJson(`https://tobz-api.herokuapp.com/api/joox?q=${body.slice(6)}&apikey=BotWeA`, {method: 'get'})
                if (data.error) return reply(data.error)
@@ -898,15 +892,18 @@ client.on('group-participants-update', async (anu) => {
 					break 
 				//daftar 
 				case 'daftar':
+				case 'regis':
+				case 'daf':
+				case 'register':
                 if (isRegistered) return  reply(ind.rediregis())
                 if (!q.includes('|')) return  reply(ind.wrongf())
                 const namaUser = q.substring(0, q.indexOf('|') - 0)
                 const umurUser = q.substring(q.lastIndexOf('|') + 1)
                 const serialUser = createSerial(20)
-                if(isNaN(umurUser)) return await reply('Umur harus berupa angka!!')
-                if (namaUser.length >= 30) return reply(`why is your name so long it's a name or a train`)
-                if (umurUser > 40) return reply(`your age is too  old maximum 40 years`)
-                if (umurUser < 12) return reply(`your age is too young minimum 12 years`)
+                if(isNaN(umurUser)) return await reply('UMUR HARUS BERUPA ANGKA SAT!')
+                if (namaUser.length >= 30) return reply(`SALAH SAT!!`)
+                if (umurUser > 20) return reply(`umur kamu terlalu tua untui menggunakan bot! umur maksimum untuk penggunaan bot 20 tahun`)
+                if (umurUser < 10) return reply(`umur kamu terlalu muda untuk menggunakan bot! umur minimum penggunaan bot 10 tahun`)
                 try {
 					ppimg = await client.getProfilePicture(`${sender.split('@')[0]}@c.us`)
 				} catch {
@@ -1645,6 +1642,7 @@ client.on('group-participants-update', async (anu) => {
                 client.sendMessage(from, 'Succes, Ganti Deskripsi Grup', text, {quoted: mek})
 					break
            case 'demote':
+           case 'demot':
 					if (!isGroup) return reply(ind.groupo())
 					if (!isGroupAdmins) return reply(ind.admin())
 					if (!isBotGroupAdmins) return reply(ind.badmin())
@@ -1653,17 +1651,18 @@ client.on('group-participants-update', async (anu) => {
 					if (mentioned.length > 1) {
 						teks = ''
 						for (let _ of mentioned) {
-							teks += `*jabatan kamu di copot*🏃 :\n`
+							teks += `*maaf kaka* *GA LAYAK JADI ADMIN!* *༼;´༎ຶ ۝ ༎ຶ༽* *༎ຶ‿༎ຶ* :\n`
 							teks += `@_.split('@')[0]`
 						}
 						mentions(teks, mentioned, true)
 						client.groupDemoteAdmin(from, mentioned)
 					} else {
-						mentions(`𝘆𝗮𝗵𝗵 @${mentioned[0].split('@')[0]} 𝗷𝗮??𝗮??𝗮𝗻 𝗮𝗱𝗺𝗶𝗻 𝗸𝗮𝗺𝘂 𝘀??𝗱𝗮𝗵 𝗱𝗶 𝗰𝗼𝗽𝗼𝘁🏃`, mentioned, true)
+						mentions(`*maaf kaka* @${mentioned[0].split('@')[0]} *GA LAYAK JADI ADMIN!* *༼;´༎ຶ ۝ ༎ຶ༽* *༎ຶ‿༎ຶ*`, mentioned, true)
 						client.groupDemoteAdmin(from, mentioned)
 					}
 					break
 				case 'promote':
+				case 'promot':
 					if (!isGroup) return reply(ind.groupo())
 					if (!isGroupAdmins) return reply(ind.admin())
 					if (!isBotGroupAdmins) return reply(ind.badmin())
@@ -1672,13 +1671,13 @@ client.on('group-participants-update', async (anu) => {
 					if (mentioned.length > 1) {
 						teks = ''
 						for (let _ of mentioned) {
-							teks += `𝗦𝗲𝗹𝗮𝗺𝗮𝘁🥳 𝗮𝗻𝗱𝗮 𝗻𝗮𝗶𝗸 𝗺𝗲𝗻𝗷𝗮𝗱𝗶 𝗮𝗱𝗺𝗶𝗻 𝗴𝗿𝗼𝘂𝗽 (+_+) :\n`
+							teks += `*[SOEKSES!]* *Sekarang Kaka* *naik menjadi admin group* ♡(> ਊ <)♡ :\n`
 							teks += `@_.split('@')[0]`
 						}
 						mentions(teks, mentioned, true)
 						client.groupMakeAdmin(from, mentioned)
 					} else {
-						mentions(`𝗦𝗲𝗹𝗮𝗺𝗮𝘁🥳 @${mentioned[0].split('@')[0]} *anda naik menjadi admin group* (+_+)`, mentioned, true)
+						mentions(`*[SOEKSES!]* *Sekarang Kaka* @${mentioned[0].split('@')[0]} *naik menjadi admin group* ♡(> ਊ <)♡`, mentioned, true)
 						client.groupMakeAdmin(from, mentioned)
 					}
 					break	
@@ -1697,7 +1696,7 @@ client.on('group-participants-update', async (anu) => {
 						mentions(teks, mentioned, true)
 						client.groupRemove(from, mentioned)
 					} else {
-						mentions(`Sukses mengeluarkan @${mentioned[0].split('@')[0]} ??`, mentioned, true)
+						mentions(`MAMPUS KE KICK AWOKAWOK 🏃 @${mentioned[0].split('@')[0]} ??`, mentioned, true)
 						client.groupRemove(from, mentioned)
 					}
 					break
@@ -1749,16 +1748,16 @@ client.on('group-participants-update', async (anu) => {
 				case 'nsfw':
 					if (!isGroup) return reply(ind.groupo())
 					if (!isGroupAdmins) return reply(ind.admin())
-					if (args.length < 1) return reply('Boo :𝘃')
+					if (args.length < 1) return reply('lu siapa sat?ᕦ[ ◑ □ ◑ ]ᕤ')
 					if (Number(args[0]) === 1) {
-						if (isNsfw) return reply(' *sudah aktif*  !!')
+						if (isNsfw) return reply(' *sudah aktif mbot*  !!')
 						nsfw.push(from)
 						fs.writeFileSync('./database/bot/nsfw.json', JSON.stringify(nsfw))
-						reply('❬ 𝗦𝗨𝗞𝗦𝗘𝗦 ❭ 𝗠𝗲𝗻𝗴𝗮𝗸𝘁𝗶𝗳𝗸𝗮𝗻 𝗳𝗶𝘁𝘂𝗿 𝗻𝘀𝗳𝘄 𝗱𝗶 𝗴𝗿𝗼𝘂𝗽 𝗶𝗻𝗶')
+						reply('❬ Sukses ❭ Mengaktifkan mode NSFW di grup ini✔️')
 					} else if (Number(args[0]) === 0) {
 						nsfw.splice(from, 1)
 						fs.writeFileSync('./database/bot/nsfw.json', JSON.stringify(nsfw))
-						reply('❬ 𝗦𝗨𝗞𝗦𝗘𝗦 ❭ 𝗠𝗲𝗻𝗼??𝗮𝗸𝘁𝗶𝗳𝗸𝗮𝗻 𝗳𝗶𝘁𝘂𝗿 𝗻𝘀𝗳𝘄 𝗱𝗶 𝗴𝗿𝗼??𝗽 𝗶𝗻𝗶️')
+						reply('❬ Sukses ❭ Menonaktifkan mode NSFW di grup ini❌️')
 					} else {
 						reply(ind.satukos())
 					}
@@ -1766,7 +1765,7 @@ client.on('group-participants-update', async (anu) => {
                 case 'leveling':
                 if (!isGroup) return reply(ind.groupo())
                 if (!isGroupAdmins) return reply(ind.admin())
-                if (args.length < 1) return reply('Boo :??')
+                if (args.length < 1) return reply('lu siapa sat?ᕦ[ ◑ □ ◑ ]ᕤ')
                 if (args[0] === 'enable') {
                 if (isLevelingOn) return reply('*fitur level sudah aktif sebelum nya*')
                  	   _leveling.push(from)
@@ -1783,7 +1782,7 @@ client.on('group-participants-update', async (anu) => {
 				case 'nobadword':
                     if (!isGroup) return reply(ind.groupo())
                 if (!isGroupAdmins) return reply(ind.admin())
-                if (args.length < 1) return reply('Kamu Siapa Anj?')
+                if (args.length < 1) return reply('lu siapa sat?ᕦ[ ◑ □ ◑ ]ᕤ')
                 if (args[0] === 'enable') {
                 if (isBadWord) return reply('*fitur BadWord sudah aktif sebelum nya*')
                  	   badword.push(from)
@@ -1798,6 +1797,7 @@ client.on('group-participants-update', async (anu) => {
                 	}
                     break
 				case 'linkgc':
+			   	   if (!isRegistered) return reply(ind.noregis())
 				    if (!isGroup) return reply(ind.groupo())
 				    if (isLimit(sender)) return reply(ind.limitend(pusname))
 				    if (!isBotGroupAdmins) return reply(ind.badmin())
@@ -1807,6 +1807,8 @@ client.on('group-participants-update', async (anu) => {
 			        await limitAdd(sender)
 					break
 				case 'tagall':
+				    if (!isRegistered) return reply(ind.noregis())
+				    if (isLimit(sender)) return reply(ind.limitend(pusname))
 					if (!isGroup) return reply(ind.groupo())
 					if (!isGroupAdmins) return reply(ind.admin())
 					members_id = []
@@ -1821,9 +1823,13 @@ client.on('group-participants-update', async (anu) => {
 				case 'delete':
 				case 'del':
 				case 'd':
+				    if (!isRegistered) return reply(ind.noregis())
+                    if (!isPrem) return reply(ind.premon(pushname))
+				    if (isLimit(sender)) return reply(ind.limitend(pusname))
 				client.deleteMessage(from, { id: mek.message.extendedTextMessage.contextInfo.stanzaId, remoteJid: from, fromMe: true }) 
 				break 
 				case 'addbadword':
+				    if (!isRegistered) return reply(ind.noregis())
                     if (!isOwner) return reply(ind.ownerb())
                     if (!isGroupAdmins) return reply(ind.admin())
                     if (args.length < 1) return reply( `Kirim perintah ${prefix}addbadword [kata kasar]. contoh ${prefix}addbadword bego`)
@@ -1833,7 +1839,9 @@ client.on('group-participants-update', async (anu) => {
                     reply('Success Menambahkan Bad Word!')
                     break
                 case 'delbadword':
-                    if (!isOwner) return reply(ind.ownerb())
+                if (!isRegistered) return reply(ind.noregis())
+				    if (!isOwner) return reply(ind.ownerb())
+                    if (!isPrem) return reply(ind.premon(pushname))
                     if (!isGroupAdmins) return reply(ind.admin())
                     if (args.length < 1) return reply( `Kirim perintah ${prefix}addbadword [kata kasar]. contoh ${prefix}addbadword bego`)
                     let dbw = body.slice(12)
@@ -1842,6 +1850,9 @@ client.on('group-participants-update', async (anu) => {
                     reply('Success Menghapus BAD WORD!')
                     break 
                 case 'listbadword':
+                if (!isRegistered) return reply(ind.noregis())
+				    if (!isOwner) return reply(ind.ownerb())
+                    if (!isPrem) return reply(ind.premon(pushname))
                     let lbw = `Ini adalah list BAD WORD\nTotal : ${bad.length}\n`
                     for (let i of bad) {
                         lbw += `➸ ${i.replace(bad)}\n`
@@ -1888,6 +1899,8 @@ client.on('group-participants-update', async (anu) => {
 					}
 					break
 			  	case 'event':
+			  	    if (!isRegistered) return reply(ind.noregis())
+                    if (!isPrem) return reply(ind.premon(pushname))
 					if (!isGroup) return reply(ind.groupo())
 					if (!isOwner) return reply(ind.ownerb())
 					if (args.length < 1) return reply('Boo :𝘃')
@@ -1895,16 +1908,19 @@ client.on('group-participants-update', async (anu) => {
 						if (isEventon) return reply('*SUDAH AKTIF* !!!')
 						event.push(from)
 						fs.writeFileSync('./database/bot/event.json', JSON.stringify(event))
-						reply('*❬ 𝗦𝗨𝗞𝗦𝗘𝗦 ❭ 𝗠𝗲𝗻𝗴𝗮𝗸𝘁𝗶𝗳𝗸𝗮𝗻 EVENT 𝗱𝗶 𝗴𝗿𝗼𝘂𝗽 𝗶𝗻𝗶️*')
+						reply('*❬ Sukses ❭ Mengaktifkan EVENT di dalam grup️*')
 					} else if (Number(args[0]) === 0) {
 						event.splice(from, 1)
 						fs.writeFileSync('./database/bot/event.json', JSON.stringify(event))
-						reply('*❬ 𝗦𝗨𝗞𝗦𝗘𝗦 ❭ 𝗠𝗲𝗻𝗼𝗻𝗮𝗸𝘁??𝗳𝗸??𝗻 EVENT 𝗱𝗶 𝗴𝗿𝗼𝘂𝗽 𝗶𝗻𝗶️*')
+						reply('*❬ Sukses ❭ Menonaktifkan EVENT di dalam grup️*')
 					} else {
 						reply(ind.satukos())
 					}
 					break 
 				case 'antilink':
+				    if (!isRegistered) return reply(ind.noregis())
+				    if (!isOwner) return reply(ind.ownerb())
+                    if (!isPrem) return reply(ind.premon(pushname))
 					if (!isGroup) return reply(ind.groupo())
 					if (!isGroupAdmins) return reply(ind.ownerg())
 					if (args.length < 1) return reply('Boo :𝘃')
@@ -1912,11 +1928,11 @@ client.on('group-participants-update', async (anu) => {
 						if (isEventon) return reply('*SUDAH AKTIF* !!!')
 						antilink.push(from)
 						fs.writeFileSync('./database/group/antilink.json', JSON.stringify(antilink))
-						reply('*❬ SUKSES ❭ ACTIVATED ANTILINK*')
+						reply('*❬ SUKSES ❭ MENGAKTIFKAN FITUR ANTILINK DIDALAM GRUP*')
 					} else if (Number(args[0]) === 0) {
 						antilink.splice(from, 1)
 						fs.writeFileSync('./database/group/antilink.json', JSON.stringify(antilink))
-						reply('*❬ SUKSES ❭ DEACTIVATED ANTILINK*')
+						reply('*❬ SUKSES ❭ MENONAKTIFKAN FITUR ANTILINK DIDALAM GRUP*')
 					} else {
 						reply(ind.satukos())
 					}
@@ -1991,6 +2007,8 @@ client.on('group-participants-update', async (anu) => {
                     reply(`Change Prefix To ${prefix} SUCCESS!`)
 					break 
 				case 'setmemlimit':
+				case 'setgruplimit':
+				case 'setgclimit':
 					if (args.length < 1) return
 					if (!isOwner) return reply(ind.ownerb())
 					if (isNaN(args[0])) return reply('limit harus angka')
@@ -2056,17 +2074,20 @@ client.on('group-participants-update', async (anu) => {
         	    break 
         		case 'listonline': 
         		case 'liston':
-        		if (!isOwner) return reply(ind.ownerb())
+        		if (!isRegistered) return reply(ind.noregis())
+				if (!isOwner) return reply(ind.ownerb())
+				if (!isPrem) return reply(ind.premon(pushname))
+				if (isLimit(sender)) return reply(ind.limitend(pusname))
         		let ido = args && /\d+\-\d+@g.us/.test(args[0]) ? args[0] : from
 			    let online = [...Object.keys(client.chats.get(ido).presences), client.user.jid]
 			    client.sendMessage(from, 'List Online:\n' + online.map(v => '- @' + v.replace(/@.+/, '')).join`\n`, text, { quoted: mek,
   			  contextInfo: { mentionedJid: online }
 			    })
 				break 
-				case '=>':
+				case '=>': 
 				const cmd = body.slice(4)
 				exec(cmd, (err, stdout) => {
-					if (err) return client.sendMessage(from, `root@Nfz.01:~ ${err}`, text, { quoted: mek })
+					if (err) return client.sendMessage(from, `root@Hns.01:~ ${err}`, text, { quoted: mek })
 					if (stdout) {
 						client.sendMessage(from, stdout, text)
 					}
@@ -2074,6 +2095,8 @@ client.on('group-participants-update', async (anu) => {
 				break
 				//tools 
 				case 'tomp3':
+				if (!isRegistered) return reply(ind.noregis())
+				if (!isPrem) return reply(ind.premon(pushname))
 				client.updatePresence(from, Presence.composing)
 				if (!isQuotedVideo) return reply('itu video bruh?:V')
 				reply(ind.wait())
@@ -2093,6 +2116,8 @@ client.on('group-participants-update', async (anu) => {
 				case 'getstiker':
 				case 'getstkr':
 				if (!isRegistered) return reply(ind.noregis())
+				if (!isPrem) return reply(ind.premon(pushname))
+				if (isLimit(sender)) return reply(ind.limitend(pusname))
 					namastc = body.slice(12)
 					result = fs.readFileSync(`./strg/sticker/${namastc}.webp`)
 					client.sendMessage(from, result, sticker, {quoted :mek})
@@ -2100,7 +2125,8 @@ client.on('group-participants-update', async (anu) => {
 				case 'stickerlist':
 				case 'liststicker':
 				case 'stikerlist':
-				if (!isRegistered) return reply(ind.noregis())
+				    if (!isRegistered) return reply(ind.noregis())
+                    if (!isPrem) return reply(ind.premon(pushname))
 					teks = '*Sticker List :*\n\n'
 					for (let awokwkwk of setiker) {
 						teks += `- ${awokwkwk}\n`
@@ -2110,6 +2136,8 @@ client.on('group-participants-update', async (anu) => {
 					break
 				case 'addsticker':
 				if (!isRegistered) return reply(ind.noregis())
+				if (!isOwner) return reply(ind.ownerb())
+				if (!isPrem) return reply(ind.premon(pushname))
 					if (!isQuotedSticker) return reply('Reply stiker nya')
 					svst = body.slice(12)
 					if (!svst) return reply('Nama sticker nya apa?')
@@ -2121,10 +2149,9 @@ client.on('group-participants-update', async (anu) => {
 					client.sendMessage(from, `Sukses Menambahkan Sticker\nCek dengan cara ${prefix}liststicker`, MessageType.text, { quoted: mek })
 					break
 				case 'addvn':
-                   if (!isOwner) return reply(`khusus Owner Tolol?`)
-                   if (!isPremium) return reply(mess.only.premium)
-                    if (!isUser) return reply(mess.only.userB)
-                   if (isBanned) return reply(mess.only.benned)
+				   if (!isRegistered) return reply(ind.noregis())
+				   if (!isOwner) return reply(ind.ownerb())
+                   if (!isPrem) return reply(ind.premon(pushname))
                      if (!isQuotedAudio) return reply('Reply audio nya om')
                      gsh = body.slice(9)
                      if (!gsh) return reply('Nama file nya apa?')
@@ -2137,6 +2164,8 @@ client.on('group-participants-update', async (anu) => {
 						reply(`Sukses, audio ${huu} Telah Ditambahkan ke database`)
                      break
 				case 'getvn':
+				if (!isRegistered) return reply(ind.noregis())
+				if (!isPrem) return reply(ind.premon(pushname))
 		            try{
                     namfil = body.slice(7)
                     bufferg = fs.readFileSync(`./stak/${namfil}.mp3`)
@@ -2149,6 +2178,7 @@ client.on('group-participants-update', async (anu) => {
 				case 'listvn':
 				case 'vnlist':
 				if (!isRegistered) return reply(ind.noregis())
+				if (!isPrem) return reply(ind.premon(pushname))
 					teks = '*List Vn:*\n\n'
 					for (let awokwkwk of audionye) {
 						teks += `- ${awokwkwk}\n`
@@ -2158,6 +2188,8 @@ client.on('group-participants-update', async (anu) => {
 					break
 				case 'addimage':
 				if (!isRegistered) return reply(ind.noregis())
+				if (!isOwner) return reply(ind.ownerb())
+				if (!isPrem) return reply(ind.premon(pushname))
 					if (!isQuotedImage) return reply('Reply imagenya blokk!')
 					svst = body.slice(10)
 					if (!svst) return reply('Nama imagenya apa su?')
@@ -2170,6 +2202,7 @@ client.on('group-participants-update', async (anu) => {
 					break
 				case 'getimage':
 				if (!isRegistered) return reply(ind.noregis())
+				if (!isPrem) return reply(ind.premon(pushname))
 					namastc = body.slice(10)
 					buffer = fs.readFileSync(`./strg/image/${namastc}.jpeg`)
 					client.sendMessage(from, buffer, image, { quoted: mek, caption: `Result From Database : ${namastc}.jpeg` })
@@ -2177,6 +2210,8 @@ client.on('group-participants-update', async (anu) => {
 				case 'imagelist':
 				case 'listimage':
 				if (!isRegistered) return reply(ind.noregis())
+				if (!isPrem) return reply(ind.premon(pushname))
+				if (isLimit(sender)) return reply(ind.limitend(pusname))
 					teks = '*List Image :*\n\n'
 					for (let awokwkwk of imagenye) {
 						teks += `- ${awokwkwk}\n`
@@ -2186,6 +2221,7 @@ client.on('group-participants-update', async (anu) => {
 					break
 				case 'addvideo':
 				if (!isRegistered) return reply(ind.noregis())
+				if (!isPrem) return reply(ind.premon(pushname))
 					if (!isQuotedVideo) return reply('Reply videonya blokk!')
 					svst = body.slice(10)
 					if (!svst) return reply('Nama videonya apa su?')
@@ -2198,13 +2234,16 @@ client.on('group-participants-update', async (anu) => {
 					break
 				case 'getvideo':
 				if (!isRegistered) return reply(ind.noregis())
+				if (!isPrem) return reply(ind.premon(pushname))
+				if (isLimit(sender)) return reply(ind.limitend(pusname))
 					namastc = body.slice(10)
 					buffer = fs.readFileSync(`./strg/video/${namastc}.mp4`)
 					client.sendMessage(from, buffer, video, { mimetype: 'video/mp4', quoted: mek })
 					break
 					case 'beban':
-					if (isBanned) return reply(mess.only.benned)   
-					if (!isUser) return reply(mess.only.userB)
+					if (!isRegistered) return reply(ind.noregis())
+				if (!isOwner) return reply(ind.ownerb())
+				if (!isPrem) return reply(ind.premon(pushname))
 					membr = []
 					const met = groupMembers
 					const msd = groupMembers
@@ -2217,6 +2256,7 @@ client.on('group-participants-update', async (anu) => {
 				case 'listvideo':
 				case 'videolist':
 				if (!isRegistered) return reply(ind.noregis())
+				if (!isPrem) return reply(ind.premon(pushname))
 					teks = '*List Video :*\n\n'
 					for (let awokwkwk of videonye) {
 						teks += `- ${awokwkwk}\n`
@@ -2226,8 +2266,8 @@ client.on('group-participants-update', async (anu) => {
 					break	
 					case 'speed':
                 case 'ping':
-                if (isBanned) return reply(mess.only.benned)    
-				if (!isUser) return reply(mess.only.userB)
+				if (!isRegistered) return reply(ind.noregis())
+				if (!isPrem) return reply(ind.premon(pushname))
                     const timestamp = speed();
                     const latensi = speed() - timestamp
                     client.updatePresence(from, Presence.composing) 
@@ -2237,24 +2277,24 @@ client.on('group-participants-update', async (anu) => {
 				
 				default:
 				if (body =='bot') {
-reply(`Apa!`)
-}
-if (body =='assalam') {
-reply(`*Waallaikumsalam warahmatullahi wabarokatuh kak (≧▽≦)*`)
-}
-if (body =='asalam') {
-reply(`*Waallaikumsalam warahmatullahi wabarokatuh kak (≧▽≦)*`)
-}
-if (body =='laikum') {
-reply(`*Waallaikumsalam warahmatullahi wabarokatuh kak (≧▽≦)*`)
-}
-if (body =='assalamu') {
-reply(`*Waallaikumsalam warahmatullahi wabarokatuh kak (≧▽≦)*`)
-}
-if (body =='asalamu') {
-reply(`*Waallaikumsalam warahmatullahi wabarokatuh kak (≧▽≦)*`)
-}
-                if (body =='@') {
+                reply(`Apa!`)
+                }
+                if (body =='assalamualaikum') {
+                reply(`*Waallaikumsalam warahmatullahi wabarokatuh kak (≧▽≦)*`)
+                }
+                if (body =='asalamualaikum') {
+                reply(`*Waallaikumsalam warahmatullahi wabarokatuh kak (≧▽≦)*`)
+                }
+                if (body 'laikum') {
+                reply(`*Waallaikumsalam warahmatullahi wabarokatuh kak (≧▽≦)*`)
+                }
+                if (body 'assalamu') {
+                reply(`*Waallaikumsalam warahmatullahi wabarokatuh kak (≧▽≦)*`)
+                }
+                if (body =='asalamu') {
+                reply(`*Waallaikumsalam warahmatullahi wabarokatuh kak (≧▽≦)*`)
+                }
+                if (body =='${command} .@') {
 reply(`KENAPA TAG DIA? KAYA KENAL SAMA DIA AJA!`)
 }
 			if (body.startsWith(`${prefix}${command}`)) {
