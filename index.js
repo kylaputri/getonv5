@@ -2299,18 +2299,6 @@ client.on('group-participants-update', async (anu) => {
                 if (body =='asalamualaikum') {
                 reply(`*Waallaikumsalam warahmatullahi wabarokatuh kak (≧▽≦)*`)
                 }
-                if (body 'laikum') {
-                reply(`*Waallaikumsalam warahmatullahi wabarokatuh kak (≧▽≦)*`)
-                }
-                if (body 'assalamu') {
-                reply(`*Waallaikumsalam warahmatullahi wabarokatuh kak (≧▽≦)*`)
-                }
-                if (body =='asalamu') {
-                reply(`*Waallaikumsalam warahmatullahi wabarokatuh kak (≧▽≦)*`)
-                }
-                if (body =='${command} .@') {
-reply(`KENAPA TAG DIA? KAYA KENAL SAMA DIA AJA!`)
-}
 			if (body.startsWith(`${prefix}${command}`)) {
                   reply(`Maaf *${pushname}*, Command *${prefix}${command}* Tidak Terdaftar Di Dalam *${prefix}menu*!`)
                   }
