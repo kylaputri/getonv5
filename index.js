@@ -693,20 +693,6 @@ client.on('group-participants-update', async (anu) => {
 			if (!isCmd && isGroup) console.log('\x1b[1;31m~\x1b[1;37m>', '[\x1b[1;31mRECV\x1b[1;37m]', time, color('Message'), 'from', color(sender.split('@')[0]), 'in', color(groupName), 'args :', color(args.length))
 			
 			switch(command) { 
-				case 'hai':
-              case 'hi':
-              case 'hei':
-              case 'hey':
-              case 'hii':
-              case 'halo':
-				 // Fix Bug By ItsmeikyXSec404				
-                 if (!isRegistered) return reply( ind.noregis())
-				if (isLimit(sender)) return reply(ind.limitend(pusname))
-				if (!isPremium) return reply('Maaf kamu bukan user premium!')
-				let ainecs = fs.readFileSync('./audio/WhatsApp-Ptt-2021-02-10-at-02.16.542.opus')
-				itsmeiky.sendMessage(from, ainecs, MessageType.audio, { quoted: iky, ptt: true })
-				await limitAdd(sender)
-				break
 				//premiom
 				case 'checkprem':
 				case 'cekprem':
